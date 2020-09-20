@@ -9,7 +9,7 @@ namespace N {
 		std::cout << ::a << std::endl;
 	}
 }
-int main() {
+int main_OOP() {
 
 	N::m();
 	system("pause");
