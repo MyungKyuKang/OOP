@@ -10,7 +10,7 @@ void SetValue::printValue(int x, int y) {
 	std::cout << "X = " << x << " ,Y = " << y << std::endl;
 }
 
-int main() {
+int main_practice01() {
 	SetValue obj;
 	obj.printValue(33, 44);
 	
