@@ -24,5 +24,11 @@
     <ClCompile Include="practice02.cpp">
       <Filter>헤더 파일</Filter>
     </ClCompile>
+    <ClCompile Include="homework4_2.cpp">
+      <Filter>헤더 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="homework4_1.c">
+      <Filter>헤더 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

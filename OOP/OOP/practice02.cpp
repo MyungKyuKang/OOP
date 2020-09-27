@@ -14,7 +14,7 @@ void print(int var1, float var2) {
 
 }
 
-int main() {
+int main_practice02() {
 	int a = 7;
 	float b = 9;
 
