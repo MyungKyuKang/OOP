@@ -36,5 +36,11 @@
     <ClCompile Include="homework5_2.cpp">
       <Filter>헤더 파일</Filter>
     </ClCompile>
+    <ClCompile Include="homework5_3_1.cpp">
+      <Filter>헤더 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="homework5_3_2.cpp">
+      <Filter>헤더 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
