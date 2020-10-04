@@ -141,6 +141,8 @@
   <ItemGroup>
     <ClCompile Include="homework4_1.c" />
     <ClCompile Include="homework4_2.cpp" />
+    <ClCompile Include="homework5_1.cpp" />
+    <ClCompile Include="homework5_2.cpp" />
     <ClCompile Include="OOP.cpp" />
     <ClCompile Include="practice01.cpp" />
     <ClCompile Include="practice02.cpp" />
