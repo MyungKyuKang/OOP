@@ -14,7 +14,7 @@ int foo() {
 	}
 	return i;
 }
-int main() {
+int main_homework5_2() {
 	cout << foo() << endl;
 	return 0;
 }

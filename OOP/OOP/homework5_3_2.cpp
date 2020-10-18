@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string.h>
 #include <vector>
+#pragma warning(disable: 4996)
 
 class Animal {
 
