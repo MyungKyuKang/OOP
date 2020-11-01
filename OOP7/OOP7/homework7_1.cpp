@@ -10,18 +10,18 @@ public:
 	std::string getAnyString() {
 		return "Stored String :: " + anyString;
 	}
-	friend std::ostream& operator<<(std::ostream& os, AnyString& as);
+	friend std::ofstream& operator<<(std::ofstream& o, AnyString& a);
 };
-std::ostream& operator<<(std::ostream& os, AnyString& as) {
-	os << as.anyString;
-	return os;
+std::ofstream& operator<<(std::ofstream& o, AnyString& a) {
+	o << a.getAnyString();
+	return o;
 }
 
 int main() {
 	std::ofstream out("testOveroding.txt");
 	AnyString a("Hello, this is operator overloading test!!!");
 	std::string output = a.getAnyString();
-	std::cout << a << std::endl;
+	out << a << std::endl;
 
 	return 0;
 }

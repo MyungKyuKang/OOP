@@ -8,7 +8,7 @@ bool funcA() {
     }
     return true;
 }
-int main_homework7_2() {
+int main_homework7_2(){
     try {
         funcA();
     }
