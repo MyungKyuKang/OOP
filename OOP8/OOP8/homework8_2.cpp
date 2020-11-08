@@ -44,7 +44,7 @@ public:
 	}
 };
 
-int main_homework8_2() {
+int main() {
 	Context* context = new Context(new OperationAdd());
 	cout << "10 + 5 = " << Context::executeStrategy(10, 5) << "\n";
 	context = new Context(new OperationSubtract());

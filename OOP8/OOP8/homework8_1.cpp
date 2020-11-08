@@ -39,7 +39,7 @@ void bar(void) {
 	std::cout << "bar: global_ptr is " << GlobalClass::instance()->get_value() << '\n';
 }
 
-int main() {
+int main_homework8_1() {
 	std::cout << "main: global_ptr is " << GlobalClass::instance()->get_value() << '\n';
 	foo();
 	bar();
